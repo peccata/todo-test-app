@@ -15,6 +15,7 @@ import 'firebase/firestore'
 Vue.use(BootstrapVue)
 Vue.use(firestorePlugin)
 
+/* this is a test app so db credentials are not hidden */
 firebase.initializeApp({
   projectId: 'todo-lists-project',
   databaseURL: 'https://todo-lists-project.firebaseio.com'
